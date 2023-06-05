@@ -1,3 +1,7 @@
+:root {
+    --color-principal: red;
+    --color-secundario: blue;
+}
 body {
     background-color: #fffbf7;
 }
@@ -9,13 +13,98 @@ h1 {
 
 p {
     color: #8b8b8bcc;
-    text-align: center;
     font-family: verdana;
     font-size: 20px;
-
 }
 
 button {
     color: #fff;
     background-color: #025157;
+}
+
+#nav-img {
+    width: 150px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.header {
+    margin: 20px 40px 140px;
+    font-size: 0;
+}
+
+.parrafo {
+    display: block;
+    width: 50%;
+    line-height: 25px;
+}
+
+li {
+    display: inline;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+.logo {
+    width: 15%;
+}
+  .logo > * {
+    width: 30%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+}
+
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+}
+.menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+.main {
+    margin-top: 140px;
+    text-align: center;
+}
+
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
 }
